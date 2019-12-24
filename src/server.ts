@@ -127,10 +127,6 @@ app.get('/', authCheck, (req: any, res: any) => {
   res.render('index', { name: req.session.username })
 })
 
-app.get('/user', authCheck, (req: any, res: any) => {
-  res.redirect('/', { name: req.session.username })
-})
-
 
 
 //API PART
