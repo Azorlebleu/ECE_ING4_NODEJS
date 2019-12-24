@@ -192,7 +192,7 @@ app.post('/api/metrics/:id', (req: any, res: any) => {
   })
 
   app.delete('/api/delete/metrics/:id/:timestamp', (req: any, res: any) => {
-    dbMet.deleteOne(req.params, (err)=>{
+    dbMet.delete(req.params, (err)=>{
       if (err)
       {
         console.log(err)
