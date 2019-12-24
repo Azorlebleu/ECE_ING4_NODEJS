@@ -1,15 +1,21 @@
-# ECE_ING4_NODEJS
-Project of DevOps and NodeJS
+# NODEJS & DevOpsSRE
+###### Owners
 
+Pierre Lelièvre and Robinson Mathieu
 
+ECE ING 4 SI group 01
+
+(La partie DevOps est en bas :^) )
+
+## NODE JS PART
 
 ### How to run the Project
 
 ```shell
 npm install
 npm run populate
-npm start 
 npm test
+npm start 
 ```
 
 Then navigate to [http://localhost:8080/login]()
@@ -56,9 +62,9 @@ We haven't been able to re-do all the project on our own. As such, we reckon hav
 
 We know it was explicitly said not to do it, however there is no way we would have even started the project by now if we hadn't used those templates.
 
-### DevOps part 
+## DevOps part 
 
-##### License
+##### License for Travis
 
 ![](https://travis-ci.com/Azorlebleu/ECE_ING4_NODEJS.svg?branch=master)
 
