@@ -58,7 +58,9 @@ We know it was explicitly said not to do it, however there is no way we would ha
 
 ### DevOps part 
 
-##### Docker 
+##### License
+
+##### Docker
 
 We have an issue with the image. It is runnable, the image is done and all, but I just can't find a SINGLE WAY to give you this image. The file is blocked by Ubuntu (because I can't have docker on my PC), and I just can't seem to find a way to save it somewhere. (I broke 3 virtual machines trying to recover those files, nothing seems to work)
 It does work however; the container runs, and I can access my webpage after having built and run the docker image.
